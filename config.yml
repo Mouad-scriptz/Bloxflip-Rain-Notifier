@@ -1,0 +1,11 @@
+notification:
+  active: true
+  timeout: 10
+
+webhook:
+  active: true
+  notify ending: false # Notifies when a rain ends
+  role id: 0 # If 0 then @everyone is used
+  avatar url: "" # "" will use default
+  username: "BF Rain Notifier"
+  url: "https://discord.com/api/webhooks/server_id/webhook_token" # https://discord.com/api/webhooks/server_id/webhook_token
